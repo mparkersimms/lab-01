@@ -1,0 +1,146 @@
+body{
+    margin:auto;
+    min-width: 480px;
+    max-width: 767px;
+}
+
+header {
+    display:flex;
+    background-color: rgb(148, 146, 146);
+    color:black;
+    border:thin rgb(57, 57, 57) solid;
+    width: 100%;
+    height:75px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+aside {
+    display:flex;
+    background-color: rgb(133, 127, 127);
+    color:black;
+    border:thin rgb(57, 57, 57) solid;
+    width: 100%;
+    height:150px;
+    justify-content: center;
+    align-items: center;
+}
+aside p {
+    display: inline-block;
+    /* vertical-align: middle;     */
+}
+#one {
+    height:250px;
+}
+article {
+    display:flex;
+    color:black;
+    border:thin rgb(57, 57, 57) solid;
+    width: 100%;
+    height:125px;
+    justify-content: center;
+    align-items: center;
+}
+#c {
+    background-color: rgb(111, 108, 108);
+}
+#d {
+    background-color: rgb(116, 98, 98);
+}
+#two {
+    height: 500px;
+}
+div {
+    float: left;
+    width:50%;
+    height:250px;
+    display:flex;
+    color:black;
+    border:thin rgb(57, 57, 57) solid;
+    justify-content: center;
+    align-items: center;
+}
+#e {
+    background-color: rgb(113, 89, 89);
+}
+#f {
+    background-color: rgb(111, 85, 85);
+}
+#g {
+    background-color: rgb(104, 80, 80);
+}
+#h {
+    background-color: rgb(92, 71, 71);
+}
+footer {
+    display:flex;
+    background-color: rgb(167, 163, 163);
+    color:black;
+    border:thin rgb(57, 57, 57) solid;
+    width: 100%;
+    height:80px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:768px){
+    body{
+        max-width: 960px;
+    }
+    header {
+        background-color: rgb(182, 166, 113);
+        width: 100%;
+        height:100px;
+       
+    }
+    aside {
+        display:flex;
+        float:left;
+        background-color: rgb(182, 151, 113);
+        width: 20.833%;
+        height:600px;
+    }
+    #one {
+        height:200px;
+    }
+    article {
+        display:flex;
+        float:left;
+        width: 39.5833%;
+        height:200px;
+    }
+    #c {
+        background-color: rgb(150, 125, 94);
+    }
+    #d {
+        background-color: rgb(126, 108, 85);
+    }
+    div {
+        float: left;
+        width:19.791667%;
+        height:250px;
+        display:flex;
+    }
+    #two {
+        height: 250px;
+    }
+    #e {
+        background-color: rgb(113, 105, 89);
+    }
+    #f {
+        background-color: rgb(111, 101, 85);
+    }
+    #g {
+        background-color: rgb(104, 99, 80);
+    }
+    #h {
+        background-color: rgb(92, 85, 71);
+    }
+    footer {
+        background-color: rgb(194, 183, 145);
+        width: 79.1667%;
+        height:150px;
+    }
+
+}
