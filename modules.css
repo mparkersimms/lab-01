@@ -1,0 +1,107 @@
+header {
+    background-color: rgb(148, 146, 146);
+    color:black;
+    border:thin rgb(57, 57, 57) solid;    
+}
+aside {
+    background-color: rgb(133, 127, 127);
+    color:black;
+    border:thin rgb(57, 57, 57) solid;
+}
+article {
+    color:black;
+    border:thin rgb(57, 57, 57) solid;
+}
+#c {
+    background-color: rgb(111, 108, 108);
+}
+#d {
+    background-color: rgb(116, 98, 98);
+}
+div {
+    color:black;
+    border:thin rgb(57, 57, 57) solid;
+}
+#e {
+    background-color: rgb(113, 89, 89);
+}
+#f {
+    background-color: rgb(111, 85, 85);
+}
+#g {
+    background-color: rgb(104, 80, 80);
+}
+#h {
+    background-color: rgb(92, 71, 71);
+}
+
+footer {
+    background-color: rgb(167, 163, 163);
+    color:black;
+    border:thin rgb(57, 57, 57) solid;
+  
+}
+@media (min-width:600px){
+    header {
+        background-color: rgb(122, 182, 113);      
+    }
+    aside {
+        background-color: rgb(125, 182, 113);
+        
+    }
+    #c {
+        background-color: rgb(103, 150, 94);
+    }
+    #d {
+        background-color: rgb(97, 126, 85);
+    }
+    #e {
+        background-color: rgb(95, 113, 89);
+    }
+    #f {
+        background-color: rgb(94, 111, 85);
+    }
+    #g {
+        background-color: rgb(85, 104, 80);
+    }
+    #h {
+        background-color: rgb(76, 92, 71);
+    }
+
+    footer {
+        background-color: rgb(153, 194, 145);
+    }
+
+}
+@media (min-width:780px){
+    header {
+        background-color: rgb(182, 166, 113);      
+    }
+    aside {
+        background-color: rgb(182, 151, 113);
+        
+    }
+    #c {
+        background-color: rgb(150, 125, 94);
+    }
+    #d {
+        background-color: rgb(126, 108, 85);
+    }
+    #e {
+        background-color: rgb(113, 105, 89);
+    }
+    #f {
+        background-color: rgb(111, 101, 85);
+    }
+    #g {
+        background-color: rgb(104, 99, 80);
+    }
+    #h {
+        background-color: rgb(92, 85, 71);
+    }
+
+    footer {
+        background-color: rgb(194, 183, 145);
+    }
+
+}
